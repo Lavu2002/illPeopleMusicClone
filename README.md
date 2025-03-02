@@ -96,11 +96,15 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
 
 (Profile)
 1. Get Profile: GET /api/profile
+
     Headers:
         Authorization: Bearer <JWT_TOKEN>
+
 2. Update Profile: PUT /api/profile
+
     Headers:
         Authorization: Bearer <JWT_TOKEN>
+        
     Request Body:
     {
       "fullName": "Lavanya",
