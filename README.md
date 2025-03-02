@@ -77,17 +77,21 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
 ### API Endpoints 
 (For Authentication)
 1. Register: POST /api/auth/register
+
     Request Body:
         {
           "email": "test@example.com",
           "password": "password123"
         }
+
 2. Login: POST /api/auth/login
+
     Request Body:
         {
           "email": "test@example.com",
           "password": "password123"
         }
+
     Note: you will recieve a JWT token in this, copy that
 
 (Profile)
