@@ -104,7 +104,7 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
 
     Headers:
         Authorization: Bearer <JWT_TOKEN>
-        
+
     Request Body:
     {
       "fullName": "Lavanya",
@@ -149,7 +149,5 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
 1. **Clear Structure**: Divided into sections like Features, Technologies, Setup Instructions, API Endpoints, and Folder Structure.
 2. **Step-by-Step Instructions**: Easy-to-follow setup guide for both frontend and backend.
 3. **API Documentation**: Clearly lists all API endpoints with examples.
-4. **Visuals**: Placeholder for screenshots to make the README more engaging.
-5. **Professional Tone**: Suitable for sharing with evaluators or potential employers.
 
 ---
