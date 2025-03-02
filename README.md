@@ -108,7 +108,7 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
           "profilePicture": "http://example.com/profile.jpg"
         }
         
-Folder Structure
+### Folder Structure
 1. Front End
 
     illPeopleAuthBackend/
