@@ -74,39 +74,35 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
     The server will run on:
         http://localhost:5000
 
-### API Endpoints
-1. Authentication
-    1. Register: POST /api/auth/register
-
-        Request Body:
-            {
-              "email": "test@example.com",
-              "password": "password123"
-            }
-
-    2. Login: POST /api/auth/login
-
-        Request Body:
-            {
-              "email": "test@example.com",
-              "password": "password123"
-            }
-        Note: you will recieve a JWT token in this, copy that
-
-2. Profile
-    1. Get Profile: GET /api/profile
-        Headers:
-            Authorization: Bearer <JWT_TOKEN>
-
-    2. Update Profile: PUT /api/profile
-        Headers:
-            Authorization: Bearer <JWT_TOKEN>
-        Request Body:
+### API Endpoints 
+(For Authentication)
+1. Register: POST /api/auth/register
+    Request Body:
         {
-          "fullName": "Lavanya",
-          "address": "zirakpur, punjab",
-          "profilePicture": "http://example.com/profile.jpg"
+          "email": "test@example.com",
+          "password": "password123"
         }
+2. Login: POST /api/auth/login
+    Request Body:
+        {
+          "email": "test@example.com",
+          "password": "password123"
+        }
+    Note: you will recieve a JWT token in this, copy that
+
+(Profile)
+1. Get Profile: GET /api/profile
+    Headers:
+        Authorization: Bearer <JWT_TOKEN>
+2. Update Profile: PUT /api/profile
+    Headers:
+        Authorization: Bearer <JWT_TOKEN>
+    Request Body:
+    {
+      "fullName": "Lavanya",
+      "address": "zirakpur, punjab",
+      "profilePicture": "http://example.com/profile.jpg"
+    }
         
 ### Folder Structure
 1. Front End
