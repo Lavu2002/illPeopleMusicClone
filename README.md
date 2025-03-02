@@ -76,7 +76,7 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
 
 ### API Endpoints
 1. Authentication
-    1.1 Register: POST /api/auth/register
+    1. Register: POST /api/auth/register
 
         Request Body:
             {
@@ -84,7 +84,7 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
               "password": "password123"
             }
 
-    1.2. Login: POST /api/auth/login
+    2. Login: POST /api/auth/login
 
         Request Body:
             {
@@ -94,11 +94,11 @@ This project is a clone of the [IllPeople Music](https://illpeoplemusic.com/beat
         Note: you will recieve a JWT token in this, copy that
 
 2. Profile
-    2.1 Get Profile: GET /api/profile
+    1. Get Profile: GET /api/profile
         Headers:
             Authorization: Bearer <JWT_TOKEN>
 
-    2.2 Update Profile: PUT /api/profile
+    2. Update Profile: PUT /api/profile
         Headers:
             Authorization: Bearer <JWT_TOKEN>
         Request Body:
