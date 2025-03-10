@@ -1,0 +1,144 @@
+.beat-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.beat-card {
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.beat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: #1e1e1e;
+}
+
+.beat-image {
+    padding: 2%;
+    position: relative;
+}
+
+.beat-image img {
+    width: 76px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.play-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.beat-image:hover .play-overlay {
+    opacity: 1;
+}
+
+.play-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.play-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.play-button .icon {
+    font-size: 24px;
+}
+
+.beat-info {
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beat-title {
+    font-size: 16px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.beat-producer {
+    color: #b3b3b3;
+    font-size: 0.9rem;
+}
+
+.beat-meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.8rem;
+    margin-top: auto;
+}
+
+.beat-stats {
+    display: flex;
+    gap: 1rem;
+}
+
+.stat {
+    color: #b3b3b3;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.beat-price {
+    width: 100px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    background: linear-gradient(110.3deg, #7000FF 36.5%, #8F00FF 93.9%);
+    border-radius: 8px;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.beat-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.tag {
+    background-color: #333;
+    color: #b3b3b3;
+    padding: 0.2rem 0.5rem;
+    border-radius: 10px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.icon{
+    width: 12px;
+    height: 12px;
+}
